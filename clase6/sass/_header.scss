@@ -1,0 +1,22 @@
+header{
+    background-color: #000000;
+    div{
+        height: 128px;
+        width: 1100px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img{
+            margin: 8px;
+        }
+        nav{
+            margin: 8px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                padding: 8px;
+            }
+        }
+    }
+}

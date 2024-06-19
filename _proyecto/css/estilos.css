@@ -27,3 +27,74 @@ header{
             text-decoration: none;
             margin: 8px;
         }
+
+/* main */
+main{
+    min-height: 680px;
+}
+
+/* sección hero-banner */
+#hero-banner{
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=5b86e5&c2=37d2dc&gt=l&gd=dtt
+*/
+    background: #5B86E5;
+    background: linear-gradient(180deg, #5B86E5, #37D2DC);
+}
+    #hero-banner div{
+        width: 1100px;
+        height: 680px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+        #hero-banner div article{
+            width: 550px;
+            color: #fff;
+        }
+            #hero-banner div article h1{
+                font-size: 24px;
+                font-weight: 400;
+            }
+            #hero-banner div article h2{
+                font-size: 40px;
+                margin-top: 40px;
+            }
+
+/* sección servicios */
+#servicios{
+    width: 1100px;
+    margin: 72px auto 0px auto; /* shothand */
+    padding: 32px 24px; /* shothand */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+    #servicios h3{
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    #servicios article{
+        width: 336px;
+        color: #07B2FF;
+        padding: 24px;
+        border: 2px solid #07B2FF;
+        border-radius: 8px;
+    }
+        #servicios h2{
+            font-weight: 300;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        #servicios p{
+            margin-bottom: 8px;
+        }
+        #servicios article a{
+            text-decoration: none;
+            color: #07B2FF;
+        }

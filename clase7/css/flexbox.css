@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+    background-color: #f8f8f8;
+}
+main{
+    padding: 64px;
+    width: 768px;
+    margin: auto;
+}
+#primero{
+    height: 364px;
+    background-color: #b7b7b7;
+
+    /* sistema de contenedores flexibles */
+    display: flex;
+    flex-wrap: wrap; /* Así que se respeten los anchos de los elementos contenidos */
+}
+    #primero h2{
+        width: 100%;
+    }
+
+    #primero article{
+        width: 128px;
+        height: 128px;
+        background-color: #b2fbb8;
+        border: 1px solid hsl(125, 90%, 14%);
+    }
