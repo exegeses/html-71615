@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Figtree, sans-serif;
+}
+main{
+    width: 768px;
+    margin: 64px auto;
+}
+    form{
+        background-color: #959595;
+        border-radius: 16px;
+        padding: 32px;
+        background: linear-gradient( 45deg, #32c376,  #3488a9);
+    }
+        form input,
+        form textarea
+        {
+            width: 100%;
+            margin: 8px 0px;
+            padding: 16px;
+            font-size: 20px;
+            font-weight: 600;
+            font-family: Figtree, sans-serif;
+            color: hsl(157, 100%, 20%);
+            border-radius: 8px;
+            border: 1px solid #666;
+        }
+        form textarea{
+            height: 128px;
+            resize: none; /* evitar cambio de tamaño */
+        }
+        form button{
+            font-size: 20px;
+            font-family: Figtree, sans-serif;
+            margin-top: 8px;
+            padding: 16px;
+            width: 40%;
+            background-color: #a7face;
+            border-radius: 8px;
+            border: 1px solid #666;
+            cursor: pointer;
+        }
+        form button:hover{
+            background-color: #befbdb;
+            box-shadow: 0px 0px 4px #fff;
+        }
